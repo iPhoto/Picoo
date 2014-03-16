@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B6CD7518D609B100B2178B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CD7418D609B100B2178B /* Foundation.framework */; };
+		53B6CD7718D609B100B2178B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CD7618D609B100B2178B /* CoreGraphics.framework */; };
+		53B6CD7918D609B100B2178B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CD7818D609B100B2178B /* UIKit.framework */; };
+		53B6CD7F18D609B100B2178B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B6CD7D18D609B100B2178B /* InfoPlist.strings */; };
+		53B6CD8118D609B100B2178B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B6CD8018D609B100B2178B /* main.m */; };
+		53B6CD8518D609B100B2178B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B6CD8418D609B100B2178B /* AppDelegate.m */; };
+		53B6CD8D18D609B100B2178B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B6CD8C18D609B100B2178B /* Images.xcassets */; };
+		53B6CD9418D609B100B2178B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CD9318D609B100B2178B /* XCTest.framework */; };
+		53B6CD9518D609B100B2178B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CD7418D609B100B2178B /* Foundation.framework */; };
+		53B6CD9618D609B100B2178B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CD7818D609B100B2178B /* UIKit.framework */; };
+		53B6CD9E18D609B100B2178B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B6CD9C18D609B100B2178B /* InfoPlist.strings */; };
+		53B6CDA018D609B100B2178B /* Picoo_Framework_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B6CD9F18D609B100B2178B /* Picoo_Framework_DemoTests.m */; };
+		53B6CDAA18D609D900B2178B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CDA918D609D900B2178B /* MobileCoreServices.framework */; };
+		53B6CDB018D60A0700B2178B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B6CDAD18D60A0700B2178B /* Main.storyboard */; };
+		53B6CDB118D60A0700B2178B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B6CDAF18D60A0700B2178B /* ViewController.m */; };
+		53B6CDB318D60A2800B2178B /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53B6CDB218D60A2800B2178B /* sample.jpg */; };
+		53B6CDB818D61BB400B2178B /* Picoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6CDB718D61BB400B2178B /* Picoo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53B6CD9718D609B100B2178B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B6CD6918D609B100B2178B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B6CD7018D609B100B2178B;
+			remoteInfo = "Picoo Framework Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53B6CD7118D609B100B2178B /* Picoo Framework Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picoo Framework Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B6CD7418D609B100B2178B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53B6CD7618D609B100B2178B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53B6CD7818D609B100B2178B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53B6CD7C18D609B100B2178B /* Picoo Framework Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picoo Framework Demo-Info.plist"; sourceTree = "<group>"; };
+		53B6CD7E18D609B100B2178B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B6CD8018D609B100B2178B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B6CD8218D609B100B2178B /* Picoo Framework Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picoo Framework Demo-Prefix.pch"; sourceTree = "<group>"; };
+		53B6CD8318D609B100B2178B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53B6CD8418D609B100B2178B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B6CD8C18D609B100B2178B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53B6CD9218D609B100B2178B /* Picoo Framework DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picoo Framework DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B6CD9318D609B100B2178B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53B6CD9B18D609B100B2178B /* Picoo Framework DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picoo Framework DemoTests-Info.plist"; sourceTree = "<group>"; };
+		53B6CD9D18D609B100B2178B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B6CD9F18D609B100B2178B /* Picoo_Framework_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picoo_Framework_DemoTests.m; sourceTree = "<group>"; };
+		53B6CDA918D609D900B2178B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		53B6CDAD18D60A0700B2178B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		53B6CDAE18D60A0700B2178B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53B6CDAF18D60A0700B2178B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53B6CDB218D60A2800B2178B /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		53B6CDB718D61BB400B2178B /* Picoo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Picoo.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B6CD6E18D609B100B2178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6CDB818D61BB400B2178B /* Picoo.framework in Frameworks */,
+				53B6CDAA18D609D900B2178B /* MobileCoreServices.framework in Frameworks */,
+				53B6CD7718D609B100B2178B /* CoreGraphics.framework in Frameworks */,
+				53B6CD7918D609B100B2178B /* UIKit.framework in Frameworks */,
+				53B6CD7518D609B100B2178B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B6CD8F18D609B100B2178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6CD9418D609B100B2178B /* XCTest.framework in Frameworks */,
+				53B6CD9618D609B100B2178B /* UIKit.framework in Frameworks */,
+				53B6CD9518D609B100B2178B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B6CD6818D609B100B2178B = {
+			isa = PBXGroup;
+			children = (
+				53B6CDB218D60A2800B2178B /* sample.jpg */,
+				53B6CD7A18D609B100B2178B /* Picoo Framework Demo */,
+				53B6CD9918D609B100B2178B /* Picoo Framework DemoTests */,
+				53B6CD7318D609B100B2178B /* Frameworks */,
+				53B6CD7218D609B100B2178B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B6CD7218D609B100B2178B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B6CD7118D609B100B2178B /* Picoo Framework Demo.app */,
+				53B6CD9218D609B100B2178B /* Picoo Framework DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B6CD7318D609B100B2178B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B6CDB718D61BB400B2178B /* Picoo.framework */,
+				53B6CDA918D609D900B2178B /* MobileCoreServices.framework */,
+				53B6CD7418D609B100B2178B /* Foundation.framework */,
+				53B6CD7618D609B100B2178B /* CoreGraphics.framework */,
+				53B6CD7818D609B100B2178B /* UIKit.framework */,
+				53B6CD9318D609B100B2178B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53B6CD7A18D609B100B2178B /* Picoo Framework Demo */ = {
+			isa = PBXGroup;
+			children = (
+				53B6CD8318D609B100B2178B /* AppDelegate.h */,
+				53B6CD8418D609B100B2178B /* AppDelegate.m */,
+				53B6CDAD18D60A0700B2178B /* Main.storyboard */,
+				53B6CDAE18D60A0700B2178B /* ViewController.h */,
+				53B6CDAF18D60A0700B2178B /* ViewController.m */,
+				53B6CD8C18D609B100B2178B /* Images.xcassets */,
+				53B6CD7B18D609B100B2178B /* Supporting Files */,
+			);
+			path = "Picoo Framework Demo";
+			sourceTree = "<group>";
+		};
+		53B6CD7B18D609B100B2178B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B6CD7C18D609B100B2178B /* Picoo Framework Demo-Info.plist */,
+				53B6CD7D18D609B100B2178B /* InfoPlist.strings */,
+				53B6CD8018D609B100B2178B /* main.m */,
+				53B6CD8218D609B100B2178B /* Picoo Framework Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53B6CD9918D609B100B2178B /* Picoo Framework DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B6CD9F18D609B100B2178B /* Picoo_Framework_DemoTests.m */,
+				53B6CD9A18D609B100B2178B /* Supporting Files */,
+			);
+			path = "Picoo Framework DemoTests";
+			sourceTree = "<group>";
+		};
+		53B6CD9A18D609B100B2178B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B6CD9B18D609B100B2178B /* Picoo Framework DemoTests-Info.plist */,
+				53B6CD9C18D609B100B2178B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B6CD7018D609B100B2178B /* Picoo Framework Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B6CDA318D609B100B2178B /* Build configuration list for PBXNativeTarget "Picoo Framework Demo" */;
+			buildPhases = (
+				53B6CD6D18D609B100B2178B /* Sources */,
+				53B6CD6E18D609B100B2178B /* Frameworks */,
+				53B6CD6F18D609B100B2178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picoo Framework Demo";
+			productName = "Picoo Framework Demo";
+			productReference = 53B6CD7118D609B100B2178B /* Picoo Framework Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53B6CD9118D609B100B2178B /* Picoo Framework DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B6CDA618D609B100B2178B /* Build configuration list for PBXNativeTarget "Picoo Framework DemoTests" */;
+			buildPhases = (
+				53B6CD8E18D609B100B2178B /* Sources */,
+				53B6CD8F18D609B100B2178B /* Frameworks */,
+				53B6CD9018D609B100B2178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B6CD9818D609B100B2178B /* PBXTargetDependency */,
+			);
+			name = "Picoo Framework DemoTests";
+			productName = "Picoo Framework DemoTests";
+			productReference = 53B6CD9218D609B100B2178B /* Picoo Framework DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B6CD6918D609B100B2178B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iftekhar;
+				TargetAttributes = {
+					53B6CD9118D609B100B2178B = {
+						TestTargetID = 53B6CD7018D609B100B2178B;
+					};
+				};
+			};
+			buildConfigurationList = 53B6CD6C18D609B100B2178B /* Build configuration list for PBXProject "Picoo Framework Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B6CD6818D609B100B2178B;
+			productRefGroup = 53B6CD7218D609B100B2178B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B6CD7018D609B100B2178B /* Picoo Framework Demo */,
+				53B6CD9118D609B100B2178B /* Picoo Framework DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B6CD6F18D609B100B2178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6CDB018D60A0700B2178B /* Main.storyboard in Resources */,
+				53B6CD8D18D609B100B2178B /* Images.xcassets in Resources */,
+				53B6CD7F18D609B100B2178B /* InfoPlist.strings in Resources */,
+				53B6CDB318D60A2800B2178B /* sample.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B6CD9018D609B100B2178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6CD9E18D609B100B2178B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B6CD6D18D609B100B2178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6CDB118D60A0700B2178B /* ViewController.m in Sources */,
+				53B6CD8518D609B100B2178B /* AppDelegate.m in Sources */,
+				53B6CD8118D609B100B2178B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B6CD8E18D609B100B2178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B6CDA018D609B100B2178B /* Picoo_Framework_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53B6CD9818D609B100B2178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B6CD7018D609B100B2178B /* Picoo Framework Demo */;
+			targetProxy = 53B6CD9718D609B100B2178B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53B6CD7D18D609B100B2178B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B6CD7E18D609B100B2178B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53B6CD9C18D609B100B2178B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B6CD9D18D609B100B2178B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B6CDA118D609B100B2178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53B6CDA218D609B100B2178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B6CDA418D609B100B2178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picoo Framework Demo/Picoo Framework Demo-Prefix.pch";
+				INFOPLIST_FILE = "Picoo Framework Demo/Picoo Framework Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53B6CDA518D609B100B2178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picoo Framework Demo/Picoo Framework Demo-Prefix.pch";
+				INFOPLIST_FILE = "Picoo Framework Demo/Picoo Framework Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53B6CDA718D609B100B2178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picoo Framework Demo.app/Picoo Framework Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picoo Framework Demo/Picoo Framework Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Picoo Framework DemoTests/Picoo Framework DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53B6CDA818D609B100B2178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picoo Framework Demo.app/Picoo Framework Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picoo Framework Demo/Picoo Framework Demo-Prefix.pch";
+				INFOPLIST_FILE = "Picoo Framework DemoTests/Picoo Framework DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B6CD6C18D609B100B2178B /* Build configuration list for PBXProject "Picoo Framework Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B6CDA118D609B100B2178B /* Debug */,
+				53B6CDA218D609B100B2178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B6CDA318D609B100B2178B /* Build configuration list for PBXNativeTarget "Picoo Framework Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B6CDA418D609B100B2178B /* Debug */,
+				53B6CDA518D609B100B2178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53B6CDA618D609B100B2178B /* Build configuration list for PBXNativeTarget "Picoo Framework DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B6CDA718D609B100B2178B /* Debug */,
+				53B6CDA818D609B100B2178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B6CD6918D609B100B2178B /* Project object */;
+}
