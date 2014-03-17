@@ -6,8 +6,8 @@ Open Picoo Photo Editor from your own apps to enhance photo easily without any e
 Installation
 ---
 
-Step 1:- Linking against framework
-- Link your project against `Picoo.framework` found in "Picoo framework.zip" file.
+Step 1:- Linking against frameworks
+- Link your project against `Picoo.framework` found in "Picoo framework.zip" file. Link your project against `MobileCoreServices.framework` also.
 
 Step 2:- Register custom URL Scheme
 - Go into your app's TARGET->Info tab.
