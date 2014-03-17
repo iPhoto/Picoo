@@ -59,6 +59,16 @@ Step 4:- Open Picoo Photo Editor
 }
 ````
 
+Installation Video
+---
+
+If you find any difficulties in project setting. Watch this project setup video
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=_mrsMCJ3yms
+" target="_blank"><img src="http://img.youtube.com/vi/_mrsMCJ3yms/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
 Sample application
 ---
 - A sample application can be found in this repository with all the above setup.
