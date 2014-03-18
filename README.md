@@ -3,6 +3,14 @@ Picoo
 
 Open Picoo Photo Editor from your own apps to enhance photo easily without any extra effort.
 
+Picoo Photo Editor Video
+---
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1qit3S9YpP0
+" target="_blank"><img src="http://img.youtube.com/vi/1qit3S9YpP0/0.jpg" 
+alt="Picoo Photo Editor Video" width="240" height="180" border="10" /></a>
+
+
 Installation
 ---
 
@@ -65,7 +73,7 @@ Installation Video
 If you find any difficulties in project setting. Watch this project setup video
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_mrsMCJ3yms
-" target="_blank"><img src="http://img.youtube.com/vi/_mrsMCJ3yms/1.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/_mrsMCJ3yms/0.jpg" 
 alt="Picoo Framework Setup Video" width="240" height="180" border="10" /></a>
 
 
